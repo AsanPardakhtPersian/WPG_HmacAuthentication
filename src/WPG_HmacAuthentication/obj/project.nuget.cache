@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "39tnTtM7iRAkkCYRAfe6k7xTSTI86N4oRcHwHPGy1cjq8wiFA2sUzbHc0HzNwTVMl0znmjiWnD4W45xq9fRygQ==",
+  "success": true,
+  "projectFilePath": "/home/amin/Projects/WPG_HmacAuthentication/src/WPG_HmacAuthentication/WPG_HmacAuthentication.csproj",
+  "expectedPackageFiles": [
+    "/home/amin/.nuget/packages/httpclienttocurl/2.0.6/httpclienttocurl.2.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

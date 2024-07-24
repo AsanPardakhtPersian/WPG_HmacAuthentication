@@ -1,0 +1,103 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "HttpClientToCurl/2.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/HttpClientToCurl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/HttpClientToCurl.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HttpClientToCurl/2.0.6": {
+      "sha512": "IhFs+fmeSvm7Ac1LfQ8serUGzj5Up+gZAg7os/nGajizLTMW/+S/M7GbJlBNWotvQGaxEu/sDirjsgVSMoc31g==",
+      "type": "package",
+      "path": "httpclienttocurl/2.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "httpclienttocurl.2.0.6.nupkg.sha512",
+        "httpclienttocurl.nuspec",
+        "lib/netstandard2.1/HttpClientToCurl.dll",
+        "lib/netstandard2.1/HttpClientToCurl.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "HttpClientToCurl >= 2.0.6"
+    ]
+  },
+  "packageFolders": {
+    "/home/amin/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/amin/Projects/WPG_HmacAuthentication/src/WPG_HmacAuthentication/WPG_HmacAuthentication.csproj",
+      "projectName": "WPG_HmacAuthentication",
+      "projectPath": "/home/amin/Projects/WPG_HmacAuthentication/src/WPG_HmacAuthentication/WPG_HmacAuthentication.csproj",
+      "packagesPath": "/home/amin/.nuget/packages/",
+      "outputPath": "/home/amin/Projects/WPG_HmacAuthentication/src/WPG_HmacAuthentication/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/amin/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "HttpClientToCurl": {
+            "target": "Package",
+            "version": "[2.0.6, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
