@@ -11,14 +11,13 @@ var userRequest = new User
 var requestUrl = "/api/v1/Withdraw/wallet/1/bill";
 string requestUri = Helpers.EncodeRequestUri(requestUrl.ToLower()); // value: $"{httpRequest.Path}{httpRequest.QueryString.Value}"
 string requestMethod = "POST"; //value: httpRequest.Method
-//TODO: appid and apikey
 var hmacResult = HmacClient.CreateHmac("your-appId", "eW91ci1hcGlLZXk=", requestUri, requestMethod, DateTime.UtcNow, userRequest.ToJson());
 
 Console.WriteLine(hmacResult);
 
 Console.WriteLine("Executed.");
 
-// Showing request which we send to the wpg service:
+// Showing request which we are going to send to the wpg service:
 var httpClient = new HttpClient
 {
     BaseAddress = new Uri("http://localhost:8000")
