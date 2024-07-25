@@ -31,10 +31,11 @@ hmacauth 8c8b3017-e88a-4ef4-941b-4b68229c2b45:346mUl60B9PavQ2TXycO6M2/CFzm4ToQta
 برای ساخت بخش 2 (امضای درخواست) از جدول فوق به موارد زیر نیاز خواهیم داشت:
 <div align="right">
 
-| **نام**         | **AppId**                               | **ApiKey** | **Resource Url**                                      | **HTTP Method** | **Nonce**                             | **Unix time** | **Request Body**                          |
-|------------------|-----------------------------------------|------------|-------------------------------------------------------|-----------------|---------------------------------------|---------------|-------------------------------------------|
-| **نمونه**        | `8c8b3017-e88a-4ef4-941b-4b68229c2b45` | MRIuMOU9   | `%2Fapi%2Fv1%2Fwithdraw%2Fwallet%2F1%2Fbill`       | POST            | `212dec30b3a447f88e21b35691a1665a`   | `1718798796`  | `{"ClientRequestId":"3088","Amount":"10000"}` |
-| **توضیحات**      | دریافت از مدیر سیستم                   | دریافت از مدیر سیستم | Encode Uri of (/api/v1/Withdraw/wallet/1/bill | UpperCase       | UUID                                  |               | Json of request object                    |
+| نام     | AppId                               | HTTP Method | Request Url                                               | Unix time  | Nonce                             | Request Body                                   |
+|---------|-------------------------------------|-------------|----------------------------------------------------------|------------|-----------------------------------|------------------------------------------------|
+| نمونه   | 8c8b3017-e88a-4ef4-941b-4b68229c2b45 | POST        | %2Fapi%2Fv1%2Fwithdraw%2Fwallet%2F1%2Fbill               | 1718798796 | 212dec30b3a447f88e21b35691a1665a | {"ClientRequestId":"3088","Amount":"10000"}    |
+| توضیحات | دریافت از مدیر سیستم               | UpperCase   | Encode Uri of (/api/v1/Withdraw/wallet/1/bill          |            | UUID                              | Json of request object                          |
+
 
 </div>
 
